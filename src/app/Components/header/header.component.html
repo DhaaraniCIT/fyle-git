@@ -1,0 +1,10 @@
+<div>
+    <nav class="navbar navbar-expand-sm bg-light fixed-top navbar-dark d-flex justify-content-between">
+        <a class="navbar-brand" href="/">
+            <img src="../../../assets/github-logo-1.png" alt="Logo" style="width:150px;">
+        </a>
+          <div class="">
+            <input type="text" class="form-control" [(ngModel)]="searchtext" (keypress)="onKeypressEvent($event)" placeholder="Search or jump to /">
+          </div>
+    </nav>
+</div>

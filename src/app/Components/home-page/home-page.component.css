@@ -1,0 +1,15 @@
+.root{
+    background-image: url("../../../assets/img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 753px;
+    width: 100%;
+    /* position:relative; */
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding-top: 90px;
+    text-align: center;
+    color: white;
+}

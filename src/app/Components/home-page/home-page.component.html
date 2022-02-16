@@ -1,0 +1,17 @@
+<div class="root">
+    <div>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <a class="navbar-brand" href="/">
+                <img src="../../../assets/github-logo-1.png" alt="Logo" style="width:150px;">
+            </a>
+          </nav>  
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div>
+            <h3>Find you favorite github Repos here</h3>
+            <div class="pl-4 pr-4">
+                <input type="text" class="form-control" id="usr" placeholder="GitHub UserName" [(ngModel)]="githubUsername" (keypress)="onKeypressEvent($event)">
+            </div>
+        </div>
+    </div>
+</div>
